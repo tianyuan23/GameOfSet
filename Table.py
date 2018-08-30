@@ -1,5 +1,11 @@
 from Card import Card
 
+'''
+Created by: Tianyuan Li
+
+The Table class represents the cards where players select a set from.
+'''
+
 class Table():
 	"""docstring for Table"""
 	def __init__(self):
@@ -53,6 +59,7 @@ class Table():
 			temp = "{} ==> {}".format(i, self.table[i])
 			print(temp)
 
+# Test the class
 '''
 table = Table()
 table.addCard([1,2,3,3])

@@ -1,6 +1,12 @@
 from Deck import Deck
 from Table import Table
 
+'''
+Created by: Tianyuan Li
+
+The Game class processes the set game and keeps scores.
+'''
+
 class Game():
 	"""docstring for Game"""
 	def __init__(self):
@@ -86,6 +92,7 @@ class Game():
 	def finish(self):
 		return self.deck.size() == 0 and not self.table.existSet()
 
+# Test the class
 '''
 game = Game()
 game.begin()
